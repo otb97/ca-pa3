@@ -188,7 +188,7 @@ If the value of the `t6` (or `x31`) register is zero, it means that your program
 
 ## Restrictions
 
-* You are allowed to use only the following registers in the `muldiv.s` file: `sp`, `ra`, and `a0` ~ `a5`. If you are running out of registers, use stack as temporary storage.
+* You are allowed to use only the following registers in the `muldiv.s` file: `zero (x0)`, `sp`, `ra`, and `a0` ~ `a5`. If you are running out of registers, use stack as temporary storage.
 
 * Your solution should finish within a reasonable time. If your code does not finish within a predefined threshold, it will be terminated.
 
