@@ -9,7 +9,7 @@ The goal of this project is to give you an opportunity to practice RISC-V assemb
 
 ## Motivation
 
-In this project, we focus on the 32-bit RISC-V processor that implements a subset of RV32I base instruction set. RV32I was designed to be sufficient to form a compiler target and to support modern operating system environments, containing only 40 unique instructions. However, it lacks integer multiplication and division instructions. Therefore, we want to implement some of integer multiplication and division instructions defined in the RISC-V "M" extension, such as `mul`, `mulh`, `div`, and `rem`, using only the RV32I instruction set. You can reuse multiplication and division functions implemented in Project #1, but this project has slight different requirements.
+In this project, we focus on the 32-bit RISC-V processor that implements a subset of RV32I base instruction set. RV32I was designed to be sufficient to form a compiler target and to support modern operating system environments, containing only 40 unique instructions. However, it lacks integer multiplication and division instructions. Therefore, we want to implement some of integer multiplication and division instructions defined in the RISC-V "M" extension, such as `mul`, `mulh`, `div`, and `rem`, using only the RV32I instruction set. You can reuse multiplication and division functions implemented in Project #1, but this project has slightly different requirements.
 
 ## Problem specification
 
