@@ -59,7 +59,7 @@ The `rem` instruction provides the remainder of the corresponding division opera
 
 ### Special cases for div() and rem()
 
-The semantics for division by zero and division overflow are summarized in the following table (excerpted from the RISC-V specification).
+The semantics for division by zero and division overflow are summarized in the following table (excerpted from the RISC-V specification. _L_ is the width of the operation in bits.).
 
 | Condition        | Dividend | Divisor | div  | rem |
 | ---------------- | -------- | ------- | ---- | --- |
